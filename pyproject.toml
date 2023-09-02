@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "mortgage-admin"
+version = "0.1.0"
+description = "Adminstrative tool for mortgage application"
+authors = ["Adebayo Akinlalu <aakinlalu@outlook.com>"]
+readme = "README.md"
+packages = [{include = "mortgage_admin"}]
+
+[tool.poetry.dependencies]
+python = "^3.9.8"
+pillow = "^9.5.0"
+streamlit = "^1.25.0"
+requests = "^2.31.0"
+easyocr = "^1.7.0"
+httpx = "^0.24.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
